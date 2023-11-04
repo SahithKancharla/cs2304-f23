@@ -1,4 +1,3 @@
-# deployment.yaml
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -15,7 +14,7 @@ spec:
     spec:
       containers:
       - name: website
-        image: mikesir87/cats:1.0 
+        image: nginx:latest  
 
 # service.yaml
 apiVersion: v1
